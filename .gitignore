@@ -1,5 +1,9 @@
 # Node Modules
 node_modules
 
-# Build Fils
+# Build Files
 build
+
+# IDE
+.alm
+.vscode

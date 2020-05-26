@@ -16,7 +16,7 @@
     "preset": "ts-jest",
     "testEnvironment": "node"
   },
-  "author": "",
+  "author": "Lloyd Dapaah",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^25.2.3",
