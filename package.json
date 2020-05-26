@@ -5,6 +5,10 @@
   "main": "build/index.js",
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrainBeatsUCF/brainbeats-ui-components.git"
+  },
   "publishConfig": { 
     "registry": "https://npm.pkg.github.com/" 
   },
