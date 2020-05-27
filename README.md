@@ -12,3 +12,12 @@ npm run build
 # Install to your package
 npm install -S brainbeats-ui-components@file:<path to root of brainbeats-ui-component repo>
 ```
+
+### NPM Installation
+```bash
+### create an npmrc file
+touch .npmrc
+
+### specify npm registry to point to brainbeats organization
+echo registry=https://npm.pkg.github.com/BrainBeatsUCF >> .npmrc
+```
