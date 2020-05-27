@@ -20,4 +20,7 @@ touch .npmrc
 
 ### specify npm registry to point to brainbeats organization
 echo registry=https://npm.pkg.github.com/BrainBeatsUCF >> .npmrc
+
+### install package
+npm install @brainbeatsucf/brainbeats-ui-components
 ```
