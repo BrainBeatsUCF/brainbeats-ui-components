@@ -1,6 +1,6 @@
 {
   "name": "@brainbeatsucf/brainbeats-ui-components",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "UI Components for building brain beats scripted applications",
   "main": "build/index.js",
   "module": "build/index.es.js",
