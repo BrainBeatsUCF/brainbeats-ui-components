@@ -3,6 +3,7 @@ import commonjs from "rollup-plugin-commonjs";
 import external from "rollup-plugin-peer-deps-external";
 import resolve from "rollup-plugin-node-resolve";
 import postcss from 'rollup-plugin-postcss';
+import image from '@rollup/plugin-image';
 
 import pkg from "./package.json";
 
@@ -33,6 +34,7 @@ export default {
     postcss({
       plugins: []
     }),
+    image(),
     commonjs({
       include: ["node_modules/**"],
       namedExports: {
