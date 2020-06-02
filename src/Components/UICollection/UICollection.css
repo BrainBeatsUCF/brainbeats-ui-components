@@ -73,3 +73,19 @@ hr {
   cursor: default;
   user-select: none;
 }
+
+/* Input Button */
+input {
+  padding: 10px;
+  margin-bottom: 7px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.27);
+  border: solid #707070 1px;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
